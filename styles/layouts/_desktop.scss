@@ -1,0 +1,13 @@
+@use "../util/" as u;
+@use "../globals/colors" as c;
+
+$desktopWidth:1440px;
+
+@media screen and (min-width:1440px){
+    .qrComponent{
+        width: 410px;
+        &__paragraph{
+            font-size: 1.4rem;
+        }
+    }
+}

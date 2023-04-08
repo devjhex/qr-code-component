@@ -1,0 +1,30 @@
+@use "../util/" as u;
+@use "../globals/colors" as c;
+$mobileWidth:375px;
+@media screen and (min-width:$mobileWidth){
+    .qrComponent {
+        width: 370px;
+        margin-top: 3rem;
+        margin-inline: auto;
+        padding: 1rem;
+        background-color: c.$white;
+        border-radius: 1.1rem;
+        &__img{
+            max-inline-size: 100%;
+            block-size: auto;
+            border-radius: 1.1rem;
+        }
+        &__heading{
+            text-align: center;
+            margin-top:1.5rem;
+            font-size: 1.9rem;
+            color:c.$dark-blue;
+        }
+        &__paragraph{
+            text-align: center;
+            font-size: 1.2rem;
+            padding:0 .5rem 0 .5rem;
+            color:c.$grayish-blue;
+        }
+    }
+}
