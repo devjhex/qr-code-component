@@ -3,9 +3,7 @@
 $mobileWidth:375px;
 @media screen and (min-width:$mobileWidth){
     .qrComponent {
-        width: 370px;
-        margin-top: 3rem;
-        margin-inline: auto;
+        max-width: 350px;
         padding: 1rem;
         background-color: c.$white;
         border-radius: 1.1rem;
