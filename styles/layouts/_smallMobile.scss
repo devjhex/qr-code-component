@@ -1,0 +1,8 @@
+@use "../util/" as u;
+@use "../globals/colors" as c;
+
+@media (min-width:320px) and (max-width:350px){
+    .qrComponent{
+        margin: .5rem;
+    }
+}
