@@ -1,8 +1,9 @@
 /* The global colors */
 h1, h2, h3 {
   margin-top: 0;
+  margin-bottom: 0;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 p {
@@ -32,38 +33,36 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-@media screen and (min-width: 375px) {
-  .qrComponent {
-    max-width: 350px;
-    padding: 1rem;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 1.1rem;
-  }
-  .qrComponent__img {
-    max-inline-size: 100%;
-    block-size: auto;
-    border-radius: 1.1rem;
-  }
-  .qrComponent__heading {
-    text-align: center;
-    margin-top: 1.5rem;
-    font-size: 1.6rem;
-    color: hsl(218, 44%, 22%);
-    font-family: "Outfit", sans-serif;
-  }
-  .qrComponent__paragraph {
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 0 0.5rem 0 0.5rem;
-    color: hsl(220, 15%, 55%);
-    font-family: "Outfit", sans-serif;
-  }
+.qrComponent {
+  max-width: 330px;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.2rem;
 }
-@media screen and (min-width: 1440px) {
+.qrComponent__img {
+  max-inline-size: 100%;
+  block-size: auto;
+  border-radius: 0.6rem;
+}
+.qrComponent__heading {
+  text-align: center;
+  margin: 1.4rem 0.5rem 1rem 0.5rem;
+  font-size: 1.4rem;
+  color: hsl(218, 44%, 22%);
+  font-family: "Outfit", sans-serif;
+}
+.qrComponent__paragraph {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0 0.5rem 0 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 350px) {
   .qrComponent {
-    width: 410px;
-  }
-  .qrComponent__paragraph {
-    font-size: 1.4rem;
+    margin: 0.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
