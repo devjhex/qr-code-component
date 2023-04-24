@@ -2,7 +2,7 @@
 @use "../globals/colors" as c;
 
     .qrComponent {
-        max-width: 335px;
+        max-width: 330px;
         padding: 1rem;
         background-color: c.$white;
         border-radius: 1.2rem;
@@ -13,8 +13,8 @@
         }
         &__heading{
             text-align: center;
-            margin-top:1.5rem;
-            font-size: 1.55rem;
+            margin:1.4rem .5rem 1rem .5rem;
+            font-size: 1.4rem;
             color:c.$dark-blue;
             font-family: u.$font;
         }
@@ -22,6 +22,8 @@
             text-align: center;
             font-size: 1rem;
             padding:0 .5rem 0 .5rem;
+            margin-left: .5rem;
+            margin-right: .5rem;
             color:c.$grayish-blue;
             font-family: u.$font;
         }
